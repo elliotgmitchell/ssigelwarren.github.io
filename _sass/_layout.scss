@@ -75,13 +75,25 @@
   .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    padding: 0 20px;
   }
   
   .footer-col {
-    flex: 1;
-    min-width: 200px;
+    padding: 0 20px;
+    
+    &.footer-left {
+      flex: 2;
+      text-align: left;
+      min-width: 280px;
+    }
+    
+    &.footer-right {
+      flex: 1;
+      text-align: right;
+      min-width: 180px;
+    }
     
     h2 {
       font-size: 1.2rem;
@@ -92,15 +104,6 @@
     p {
       margin-bottom: 10px;
       color: vars.$secondary-color;
-    }
-    
-    .social-links {
-      list-style: none;
-      padding: 0;
-      
-      li {
-        margin-bottom: 5px;
-      }
     }
     
     .contact-button {
@@ -121,6 +124,7 @@
     text-align: center;
     color: vars.$secondary-color;
     font-size: 0.9rem;
+    padding: 0 40px;
   }
 }
 
@@ -554,7 +558,14 @@
     flex-direction: column;
     
     .footer-col {
+      width: 100%;
+      text-align: center !important;
       margin-bottom: 20px;
+      
+      &.footer-left, &.footer-right {
+        flex: auto;
+        min-width: auto;
+      }
     }
   }
   

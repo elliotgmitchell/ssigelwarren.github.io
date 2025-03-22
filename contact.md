@@ -34,7 +34,7 @@ permalink: /contact/
 
     <div class="contact-form-column">
       <div class="form-container">
-        <h2>Contact Form</h2>
+        <h2>Contact</h2>
         <p>
         I’m available for dramaturgy, script consultation, French-to-English translation (including archival work), research for creative projects, and event producing.
         </p>
