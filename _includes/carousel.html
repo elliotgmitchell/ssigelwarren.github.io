@@ -1,0 +1,22 @@
+<div class="carousel-container">
+    <div class="carousel-slide">
+        <img src="/assets/images/carousel1.png" alt="Image 1">
+        <img src="/assets/images/carousel2.png" alt="Image 2">
+        <img src="/assets/images/carousel3.png" alt="Image 3">
+        <img src="/assets/images/carousel4.png" alt="Image 1">
+        <img src="/assets/images/carousel5.png" alt="Image 2">
+        <img src="/assets/images/carousel6.png" alt="Image 3">
+        <img src="/assets/images/carousel7.png" alt="Image 1">
+        <img src="/assets/images/carousel8.png" alt="Image 2">
+        <img src="/assets/images/carousel9.png" alt="Image 3">
+    </div>
+</div>
+<script>
+    const slides = document.querySelector('.carousel-slide');
+    let index = 0;
+
+    setInterval(() => {
+        index = (index + 1) % slides.children.length;
+        slides.style.transform = `translateX(-${index * 100}%)`;
+    }, 3000);
+</script>
