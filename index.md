@@ -4,28 +4,28 @@ title: Home
 ---
 
 <div class="hero-section">
-  <h1 class="name">[Your Name]</h1>
-  <h2 class="profession">Dramaturge</h2>
+  <h1 class="name">Sophie Siegel-Warren</h1>
+  <h2 class="profession">Dramaturg | Script Consultant | Researcher | Translator | Project Manager</h2>
 </div>
 
 <div class="carousel-container">
   <div class="carousel">
     <div class="carousel-item active">
-      <img src="{{ site.baseurl }}/assets/images/productions/production1.jpg" alt="Production 1">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel1.png" alt="Production 1">
       <div class="carousel-caption">
         <h3>Production Title 1</h3>
         <p>Brief description or role</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ site.baseurl }}/assets/images/productions/production2.jpg" alt="Production 2">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel2.png" alt="Production 2">
       <div class="carousel-caption">
         <h3>Production Title 2</h3>
         <p>Brief description or role</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ site.baseurl }}/assets/images/productions/production3.jpg" alt="Production 3">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel3.png" alt="Production 3">
       <div class="carousel-caption">
         <h3>Production Title 3</h3>
         <p>Brief description or role</p>
@@ -41,7 +41,7 @@ title: Home
   </div>
 </div>
 
-<section class="services">
+<!-- <section class="services">
   <h2>Services</h2>
   <div class="services-grid">
     <div class="service-item">
@@ -65,6 +65,6 @@ title: Home
       <p>Coordinating production elements, timelines, and communication between creative teams.</p>
     </div>
   </div>
-</section>
+</section> -->
 
 <script src="{{ site.baseurl }}/assets/js/carousel.js"></script>

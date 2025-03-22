@@ -8,12 +8,10 @@ permalink: /contact/
   <div class="contact-intro">
     <h1>Get In Touch</h1>
     <p>
-      I'm always interested in discussing new theatrical projects, collaborations, or consultations. 
-      Whether you're planning a production and need dramaturgical support, seeking script consultation, 
-      or have a specific research or translation project in mind, I'd love to hear from you.
+    Developing a script, screenplay, or pilot and seeking feedback? Looking to hire a production dramaturg? Working on a creative project and seeking research about a person, place, or event? Interested in adapting a work of French theater and hoping for a new translation? Have a creative project that includes primary sources in French you need translated? Feel free to reach out!
     </p>
     <p>
-      Please use the form below to reach out, and I'll get back to you as soon as possible.
+    I’m available for dramaturgy, script consultation, French-to-English translation (including archival work), research for creative projects, and event producing. Contact box on website to ssiegelwarren@gmail.com      Whether you're planning a production and need dramaturgical support, seeking script consultation,  or have a specific research or translation project in mind, I'd love to hear from you.
     </p>
   </div>
   
