@@ -1,7 +1,10 @@
-<header>
-    <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
-</header>
+<header class="site-header">
+    <div class="header-container">
+      <a href="{{ site.baseurl }}/" class="site-title">
+        <span class="name">[Your Name]</span>
+        <span class="title">Dramaturge</span>
+      </a>
+      
+      {% include navigation.html %}
+    </div>
+  </header>

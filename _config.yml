@@ -17,11 +17,47 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: Sophie - Dramaturge
+email: your-email@example.com
+description: >- 
+  Professional Dramaturge offering script consultation, research, 
+  translation, and project management services for theater productions.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-title: Sophie's Website
-description: A simple and clean Jekyll template with sage green accents.
-baseurl: "" # Update this if deploying to a subdirectory
-url: "" # Update this with your website URL
+# Build settings
+markdown: kramdown
+theme: minima
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+
+# Collections
+collections:
+  productions:
+    output: true
+
+# Default front matter settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 
 # # Build settings
 # theme: minima

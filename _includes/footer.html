@@ -1,3 +1,26 @@
-<footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-</footer>
+<footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h2>[Your Name]</h2>
+        <p>Dramaturge | Script Consultant | Researcher | Translator | Project Manager</p>
+      </div>
+      
+      <div class="footer-col">
+        <h2>Connect</h2>
+        <ul class="social-links">
+          <li><a href="mailto:{{ site.email }}">Email</a></li>
+          <li><a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a></li>
+          <!-- Add other social media or professional links as needed -->
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h2>Contact</h2>
+        <a href="{{ site.baseurl }}/contact/" class="contact-button">Get in Touch</a>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; {{ site.time | date: '%Y' }} [Your Name]. All rights reserved.</p>
+    </div>
+  </footer>
