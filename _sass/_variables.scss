@@ -1,3 +1,7 @@
+// Import the Sass color module
+@use "sass:color";
+@use "sass:math";
+
 // Color variables
 $primary-color: #3a3a3a;
 $secondary-color: #636363;
@@ -20,3 +24,6 @@ $border-radius: 8px;
 // Breakpoints
 $mobile-breakpoint: 768px;
 $tablet-breakpoint: 992px;
+
+// Note: We don't need to define custom color functions anymore since 
+// we now use color.adjust() directly in our other scss files

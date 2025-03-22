@@ -1,0 +1,7 @@
+// This file forwards all modules for Jekyll compatibility
+// It acts as an interface between Jekyll's @import system and Sass's @forward system
+
+// Forward all modules
+@forward "variables";
+@forward "base";
+@forward "layout";
