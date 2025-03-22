@@ -38,7 +38,7 @@ permalink: /contact/
         <p>
         I’m available for dramaturgy, script consultation, French-to-English translation (including archival work), research for creative projects, and event producing.
         </p>
-        <form action="https://formspree.io/f/[your-formspree-id]" method="POST">
+        <form action="https://formspree.io/f/xovedjko" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
