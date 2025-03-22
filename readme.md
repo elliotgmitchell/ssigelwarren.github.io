@@ -2,6 +2,13 @@
 
 A personal website for a Dramaturge built with Jekyll and deployable to GitHub Pages.
 
+## Todos
+
+- Get sophie a domain name and publish to that domain
+- Double check details and images for the carousel
+- Update the about section with Sophie's current job??
+- Update the formspree form so that Sophie gets the emails
+
 ## Features
 
 - Responsive design that works on all devices
