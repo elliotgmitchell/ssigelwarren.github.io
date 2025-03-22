@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function startSlideInterval() {
   slideInterval = setInterval(function() {
     changeSlide(1);
-  }, 5000);
+  }, 3500);
 }
 
 // Change slide with prev/next controls

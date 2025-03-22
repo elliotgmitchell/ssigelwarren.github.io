@@ -13,22 +13,64 @@ title: Home
     <div class="carousel-item active">
       <img src="{{ site.baseurl }}/assets/images/productions/carousel1.png" alt="Production 1">
       <div class="carousel-caption">
-        <h3>Production Title 1</h3>
-        <p>Brief description or role</p>
+        <h3>Trouble In Mind</h3>
+        <p>Alice Childres | Yale School of Drama</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="{{ site.baseurl }}/assets/images/productions/carousel2.png" alt="Production 2">
       <div class="carousel-caption">
-        <h3>Production Title 2</h3>
-        <p>Brief description or role</p>
+        <h3>Cadillac Crew</h3>
+        <p>Tori Sampson | Yale Repertory Theater</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="{{ site.baseurl }}/assets/images/productions/carousel3.png" alt="Production 3">
       <div class="carousel-caption">
-        <h3>Production Title 3</h3>
-        <p>Brief description or role</p>
+        <h3>Cadillac Crew</h3>
+        <p>Tori Sampson | Yale Repertory Theater</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel4.png" alt="Production 4">
+      <div class="carousel-caption">
+        <h3>Cadillac Crew</h3>
+        <p>Tori Sampson | Yale Repertory Theater</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel5.png" alt="Production 5">
+      <div class="carousel-caption">
+        <h3>Cadillac Crew</h3>
+        <p>Tori Sampson | Yale Repertory Theater</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel6.png" alt="Production 6">
+      <div class="carousel-caption">
+        <h3>A Midsummer Night's Dream</h3>
+        <p>Queen's College</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel7.jpg" alt="Production 7">
+      <div class="carousel-caption">
+        <h3>Mr. Burns, a Post-Electric Play</h3>
+        <p>Anne Washburn | Queen's College</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel8.jpg" alt="Production 8">
+      <div class="carousel-caption">
+        <h3>Mr. Burns, a Post-Electric Play</h3>
+        <p>Anne Washburn | Queen's College</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.baseurl }}/assets/images/productions/carousel9.jpg" alt="Production 9">
+      <div class="carousel-caption">
+        <h3>Mr. Burns, a Post-Electric Play</h3>
+        <p>Anne Washburn | Queen's College</p>
       </div>
     </div>
     <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
@@ -37,6 +79,12 @@ title: Home
   <div class="carousel-indicators">
     <span class="indicator active" onclick="currentSlide(0)"></span>
     <span class="indicator" onclick="currentSlide(1)"></span>
+    <span class="indicator" onclick="currentSlide(2)"></span>
+    <span class="indicator" onclick="currentSlide(2)"></span>
+    <span class="indicator" onclick="currentSlide(2)"></span>
+    <span class="indicator" onclick="currentSlide(2)"></span>
+    <span class="indicator" onclick="currentSlide(2)"></span>
+    <span class="indicator" onclick="currentSlide(2)"></span>
     <span class="indicator" onclick="currentSlide(2)"></span>
   </div>
 </div>
