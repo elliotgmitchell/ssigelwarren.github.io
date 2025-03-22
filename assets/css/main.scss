@@ -1,0 +1,13 @@
+---
+# Front matter needed for Jekyll to process this file
+---
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap');
+
+// Import our modules through the main-imports interface
+// We still need to use @import for Jekyll compatibility, but we're using @forward internally
+@import "main-imports";
+
+// Note: Jekyll still requires @import for the main.scss file at this time
+// The internal forwarding helps reduce some warnings while maintaining compatibility

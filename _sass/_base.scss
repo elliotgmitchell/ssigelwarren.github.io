@@ -1,0 +1,145 @@
+// Import variables
+@use "variables" as vars;
+@use "sass:color";
+
+// Reset & Base Styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: vars.$body-font;
+  color: vars.$text-color;
+  background-color: vars.$background-color;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: vars.$header-font;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  color: vars.$primary-color;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: vars.$link-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: color.adjust(vars.$link-color, $lightness: -15%);
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-left: 4px solid vars.$accent-color;
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  color: vars.$secondary-color;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: vars.$border-color;
+  margin: 2em 0;
+}
+
+button,
+input[type="submit"] {
+  background-color: vars.$accent-color;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: vars.$body-font;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: color.adjust(vars.$accent-color, $lightness: -10%);
+  }
+}
+
+// Form elements
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid color.adjust(vars.$border-color, $lightness: 5%);
+  border-radius: 4px;
+  font-family: vars.$body-font;
+  font-size: 1rem;
+  
+  &:focus {
+    outline: none;
+    border-color: vars.$accent-color;
+  }
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+// Utility classes
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: vars.$content-width;
+  margin: 0 auto;
+  padding: 0 vars.$content-padding;
+}
